@@ -1,0 +1,11 @@
+name: bioinfo
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - blast
+  - hmmer
+  - ncbi-datasets-cli
+  - pip
+prefix: /home/fpascutti/miniforge3/envs/bioinfo

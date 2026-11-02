@@ -1,0 +1,6 @@
+ncbi_dataset/
+ncbi_dataset.zip
+*.log
+README.md.bak
+ncbi_README.md
+md5sum.txt

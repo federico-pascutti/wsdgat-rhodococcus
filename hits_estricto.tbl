@@ -1,0 +1,27 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+WP_011594556.1       -          WS_DGAT_cat          PF03007.22   5.8e-83  277.6   1.2     9e-83  277.0   1.2   1.3   1   0   0   1   1   1   1 MULTISPECIES: WS/DGAT/MGAT family O-acyltransferase [Rhodococcus]
+WP_007299743.1       -          WS_DGAT_cat          PF03007.22   2.9e-80  268.8   4.0   4.1e-80  268.3   4.0   1.2   1   0   0   1   1   1   1 MULTISPECIES: WS/DGAT/MGAT family O-acyltransferase [Rhodococcus]
+WP_011598616.1       -          WS_DGAT_cat          PF03007.22   3.1e-80  268.7   0.0   4.2e-80  268.2   0.0   1.2   1   0   0   1   1   1   1 WS/DGAT/MGAT family O-acyltransferase [Rhodococcus jostii]
+WP_011597548.1       -          WS_DGAT_cat          PF03007.22   4.2e-80  268.2   0.5   5.5e-80  267.9   0.5   1.2   1   0   0   1   1   1   1 WS/DGAT/MGAT family O-acyltransferase [Rhodococcus jostii]
+WP_009479536.1       -          WS_DGAT_cat          PF03007.22   2.3e-79  265.8   0.3   2.3e-79  265.8   0.3   1.5   2   0   0   2   2   2   1 MULTISPECIES: WS/DGAT/MGAT family O-acyltransferase [Rhodococcus]
+WP_011595642.1       -          WS_DGAT_cat          PF03007.22   1.4e-76  256.7   5.3   1.4e-76  256.7   5.3   1.4   2   0   0   2   2   2   1 MULTISPECIES: WS/DGAT/MGAT family O-acyltransferase [Rhodococcus]
+WP_009472628.1       -          WS_DGAT_cat          PF03007.22   4.2e-67  225.6   3.9     7e-67  224.9   3.9   1.4   1   0   0   1   1   1   1 MULTISPECIES: WS/DGAT/MGAT family O-acyltransferase [Rhodococcus]
+WP_011593341.1       -          WS_DGAT_cat          PF03007.22     2e-60  203.7   0.5     2e-60  203.7   0.5   2.2   2   1   0   2   2   2   1 wax ester/triacylglycerol synthase family O-acyltransferase [Rhodococcus jostii]
+WP_011599389.1       -          WS_DGAT_cat          PF03007.22   4.4e-60  202.6   2.3   4.8e-60  202.5   0.4   2.0   2   0   0   2   2   2   1 wax ester/triacylglycerol synthase family O-acyltransferase [Rhodococcus jostii]
+WP_011593359.1       -          WS_DGAT_cat          PF03007.22   1.5e-59  200.8   1.3   2.2e-59  200.3   1.3   1.2   1   0   0   1   1   1   1 wax ester/triacylglycerol synthase family O-acyltransferase [Rhodococcus jostii]
+WP_011597790.1       -          WS_DGAT_cat          PF03007.22     4e-44  150.3   1.0   6.1e-44  149.7   1.0   1.2   1   0   0   1   1   1   1 wax ester/triacylglycerol synthase domain-containing protein [Rhodococcus jostii]
+WP_011593373.1       -          WS_DGAT_cat          PF03007.22   2.7e-40  137.7   7.4   2.7e-40  137.7   7.4   1.5   2   0   0   2   2   2   1 wax ester/triacylglycerol synthase domain-containing protein [Rhodococcus jostii]
+WP_011593358.1       -          WS_DGAT_cat          PF03007.22   4.2e-39  133.8   3.3   4.2e-39  133.8   3.3   1.9   2   1   0   2   2   2   1 wax ester/triacylglycerol synthase domain-containing protein [Rhodococcus jostii]
+WP_011593841.1       -          WS_DGAT_cat          PF03007.22   6.2e-34  116.9   6.1     1e-29  103.1   3.0   2.4   2   1   1   3   3   3   2 wax ester/triacylglycerol synthase domain-containing protein [Rhodococcus jostii]
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      PF03007.hmm
+# Target file:     ncbi_dataset/data/GCF_000014565.1/protein.faa
+# Option settings: hmmsearch --tblout hits_estricto.tbl -E 1e-10 PF03007.hmm ncbi_dataset/data/GCF_000014565.1/protein.faa 
+# Current dir:     /home/fpascutti/proyectos/paso1
+# Date:            Mon Nov  2 23:11:11 2026
+# [ok]
