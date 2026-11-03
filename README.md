@@ -17,6 +17,6 @@ hmmsearch --tblout hits.tbl -E 1e-5 PF03007.hmm ncbi_dataset/data/GCF_000014565.
 ## Resultados
 
 - 15 proteínas con E-value < 1e-5 (tabla en `wsdgat_hits.txt`).
-- Con E-value < 1e-10 quedan [15].
+- Con E-value < 1e-10 quedan 15.
 - En mi tesis doctoral identifiqué 13 WS/DGAT en la cepa patagónica *R. jostii* 602; el número es comparable al de RHA1.
-- El hit más débil: WP_272942770.1, (score 35,7) podría ser un fragmento de secuencia o tener el dominio incompleto; queda pendiente verificar el motivo catalítico HHxxxDG.”
+- El hit más débil: WP_272942770.1, (score 35,7) podría ser un fragmento de secuencia git add README.mdo tener el dominio incompleto; queda pendiente verificar el motivo catalítico HHxxxDG.”
